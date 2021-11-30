@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(219, 13, 168);
+}
+
+.toppmeny{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(39, 39, 41);
+}
+
+.root {
+    display: flex;
+}
+
+nav {
+    font-family: 'Jura', sans-serif;
+    width: 200px;
+}
+
+nav a {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.bilder {
+    width: 30%;
+    max-height: 300px;
+    padding-bottom: 8%;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
